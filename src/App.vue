@@ -1,13 +1,18 @@
 <template>
   <div id="app">
-    <div class="nav">
-      <router-link to="/">Dom</router-link>
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
+  body {
+    margin: 0;
+    padding: 0;
+  }
 </style>
